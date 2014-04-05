@@ -1,3 +1,9 @@
-__version__ = '1.0.5'
-
 from .dataview import DataView
+from . import metadata
+
+__version__ = metadata.version
+__author__ = metadata.authors[0]
+__license__ = metadata.license
+__copyright__ = metadata.copyright
+
+

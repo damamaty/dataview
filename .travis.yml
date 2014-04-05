@@ -6,4 +6,4 @@ python:
   - "2.6"
   - "pypy"
 script:
-  python -m unittest
+  python setup.py test
