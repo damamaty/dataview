@@ -15,7 +15,7 @@ To upgrade a previous installation, use:
 
 .. code-block::
 
-    pip install dataview
+    pip install -U dataview
 
 Usage && Examples
 -----------------
